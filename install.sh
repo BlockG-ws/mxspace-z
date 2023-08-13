@@ -5,6 +5,7 @@ command="node index.js --redis_host=redis --db_host=mongo \
   --jwt_secret=${JWT_SECRET} \
   --color \
   --port=${PORT} \
+  "
 
 if [ -n "$ENCRYPT_KEY" ]; then
   command+=" --encrypt_key=${ENCRYPT_KEY}"
