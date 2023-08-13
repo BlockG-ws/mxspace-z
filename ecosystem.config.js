@@ -21,6 +21,8 @@ module.exports = {
         NODE_PATH: nodePath,
         MX_ENCRYPT_KEY: process.env.MX_ENCRYPT_KEY,
         PORT: process.env.PORT,
+        ALLOWED_ORIGINS: process.env.ALLOWED_ORIGINS,
+        JWT_SECRET: process.env.JWT_SECRET
       },
     },
   ],
