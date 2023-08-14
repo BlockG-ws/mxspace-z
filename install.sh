@@ -1,6 +1,6 @@
 #!/bin/bash
 
-command="node index.js --redis_host=redis --db_host=mongo \
+command="node out/index.js --redis_host=redis --db_host=mongo \
   --allowed_origins=${ALLOWED_ORIGINS} \
   --jwt_secret=${JWT_SECRET} \
   --color \
