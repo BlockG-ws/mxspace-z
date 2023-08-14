@@ -6,8 +6,9 @@ command="node out/index.js --redis_host=${REDIS_HOST} --db_host=${MONGODB_HOST} 
   --allowed_origins=${ALLOWED_ORIGINS} \
   --jwt_secret=${JWT_SECRET} \
   --color \
-  --port=${PORT} \
   "
+#  --port=${PORT} \
+#  "
 
 if [ -n "$ENCRYPT_KEY" ]; then
   command+=" --encrypt_key=${ENCRYPT_KEY}"
