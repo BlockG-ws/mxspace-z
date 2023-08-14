@@ -3,4 +3,5 @@ COPY . .
 
 ENV TZ=Asia/Shanghai
 ENV NODE_ENV=production
-CMD sh install.sh
+CMD sh run.sh
+EXPOSE 8080
